@@ -2,16 +2,6 @@ const { describe, test, expect } = require("@jest/globals")
 const bigOrder = require('../data/order.js')
 
 // Run solutions
-const {
-  convertToNums,
-  convertToDollars,
-  totalCart,
-  getPrices,
-  bigCartTotal,
-  dontHackCats
-} = require('../problems/reduce_solutions.js')
-
-// Load student activity file
 // const {
 //   convertToNums,
 //   convertToDollars,
@@ -19,7 +9,17 @@ const {
 //   getPrices,
 //   bigCartTotal,
 //   dontHackCats
-// } = require('../problems/reduce.js')
+// } = require('../problems/reduce_solutions.js')
+
+// Load student activity file
+const {
+  convertToNums,
+  convertToDollars,
+  totalCart,
+  getPrices,
+  bigCartTotal,
+  dontHackCats
+} = require('../problems/reduce.js')
 
 
 describe("convertToNums", () => {
