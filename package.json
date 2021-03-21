@@ -1,0 +1,30 @@
+{
+  "name": "js_reduce_lesson",
+  "version": "1.0.0",
+  "description": "lesson and activity for JavaScript .reduce() method",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krafalski/js_reduce_lesson.git"
+  },
+  "keywords": [
+    "reduce",
+    "JavaScript",
+    "lesson",
+    "activity",
+    "jest",
+    "circleci"
+  ],
+  "author": "K. Rafalski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krafalski/js_reduce_lesson/issues"
+  },
+  "homepage": "https://github.com/Krafalski/js_reduce_lesson#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
