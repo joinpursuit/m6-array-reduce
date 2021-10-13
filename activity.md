@@ -2,37 +2,34 @@
 
 With the success of Petsy, a new version is launching that accepts the latest cryptocurrency: PlutoPluto Coin, represented by the symbol `♇♇`. 1 PlutoPluto Coin is worth $20. Therefore if an item is ♇♇4.4 it is actually worth $88.
 
-
-
 ## Getting Started
 
-* Fork this repo
-* `git clone` the forked repository
-* `cd` to the directory where you cloned it
-* `npm install` to install dependencies
-*  Do your work in the `problems/reduce.js` file.
-* `npm test` to run the tests
+- Fork this repo
+- `git clone` the forked repository
+- `cd` to the directory where you cloned it
+- `npm install` to install dependencies
+- Do your work in the `problems/reduce.js` file.
+- `npm test` to run the tests
 
-> *Note*: Remember to `git add`, `git commit` and `git push` regularly
+> _Note_: Remember to `git add`, `git commit` and `git push` regularly
 
 ## Submission Guidelines
-  * When finished, commit and push your work.
-  * Make a pull request on GitHub.
+
+- When finished, commit and push your work.
+- Make a pull request on GitHub.
 
 ## Activity
 
 **Note:** Solutions available in the file `problems/reduce_solutions.js`
 
 A first order has come in.
+
 ```js
-const firstOrder = [
- .2, '♇♇7' , 3, '4', '♇♇1.8'
-]
+const firstOrder = [0.2, "♇♇7", 3, "4", "♇♇1.8"];
 
 // 4 + 140 + 60 + 80 + 36 = 320
 // + 10 shipping: total = 330
 ```
-
 
 You'll need to convert the items from cryptocurrency into numbers that are in the dollar value.
 
@@ -48,18 +45,18 @@ Using what you've learned in class
 
 - The hacker group hackrDogz managed put negative values in to try to make us pay them for buying our stuff! Make the number positive and charge them 5x the original price! Just charge them the regular price if it is a positive number. Don't forget to charge $400 for shipping.
 
-
 ## BONUS
 
 **Note:** Solutions available in the file `bonus/reduce_solutions.js`
 
-There is no starter code/file for this
+There is no starter code/file for this, please make your own and challenge yourself to set up testing for these questions as well.
 
 ### Most Pricy
+
 - Find the priciest item from the big array
- - take the `firstOrder` and use the `convertToNums` function
- - then use the `convertToDollars`
- - then use the converted array with `.reduce()` in order to find the priciest item. [hint](https://thecodebarbarian.com/javascript-reduce-in-5-examples.html)
+- take the `firstOrder` and use the `convertToNums` function
+- then use the `convertToDollars`
+- then use the converted array with `.reduce()` in order to find the priciest item. [hint](https://thecodebarbarian.com/javascript-reduce-in-5-examples.html)
 
 ### Buy One Get One Half Sales
 
@@ -83,7 +80,7 @@ There is no starter code/file for this
 
 -Write a new function that will find the average price of the order
 
-[Hint]( https://www.freecodecamp.org/news/reduce-f47a7da511a9/)
+[Hint](https://www.freecodecamp.org/news/reduce-f47a7da511a9/)
 
 ### Bonus BONUS Bonus BONUS
 
